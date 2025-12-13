@@ -1,0 +1,51 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# Build logs
+*.log
+msbuild.log
+
+# SQLite database (local user data)
+*.db
+*.sqlite
