@@ -19,6 +19,13 @@ namespace N9
         {
             _currentUser = user;
             _notificationService = new NotificationService();
+            
+            // Hiển thị thông tin user
+            if (_currentUser != null)
+            {
+                lblTenUser.Text = _currentUser.Username;
+                lblEmail.Text = !string.IsNullOrEmpty(_currentUser.Email) ? _currentUser.Email : "";
+            }
         }
 
         private void LoadUserControl(UserControl uc)

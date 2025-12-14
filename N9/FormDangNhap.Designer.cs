@@ -138,10 +138,10 @@
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.Location = new System.Drawing.Point(26, 449);
             this.txtPass.Margin = new System.Windows.Forms.Padding(3, 15, 3, 15);
-            this.txtPass.Multiline = true;
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(390, 44);
+            this.txtPass.Size = new System.Drawing.Size(390, 38);
             this.txtPass.TabIndex = 7;
+            this.txtPass.UseSystemPasswordChar = true;
             // 
             // lblLogin3
             // 
@@ -187,7 +187,7 @@
             this.lblLogin2.Name = "lblLogin2";
             this.lblLogin2.Size = new System.Drawing.Size(374, 25);
             this.lblLogin2.TabIndex = 2;
-            this.lblLogin2.Text = "Email";
+            this.lblLogin2.Text = "Tên đăng nhập";
             this.lblLogin2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblLogin

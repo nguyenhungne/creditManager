@@ -94,7 +94,7 @@
     <Compile Include="FormTrangChu.Designer.cs">
       <DependentUpon>FormTrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FromDangNhap.Designer.cs">
+    <Compile Include="FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />

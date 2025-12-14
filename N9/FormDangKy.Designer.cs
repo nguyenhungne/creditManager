@@ -152,7 +152,7 @@
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(374, 25);
             this.lblName.TabIndex = 2;
-            this.lblName.Text = "Họ và tên";
+            this.lblName.Text = "Tên đăng nhập";
             // 
             // lblRegister
             // 
